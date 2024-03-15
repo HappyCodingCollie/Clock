@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+#app{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: thin;
+    margin-top: 30vh;
+    padding: 20px 40px;
+}
+
+#hour{
+    font-size: 20vw;
+    color: rgb(255, 193, 22);
+}
+
+#timezone{
+    color: gray;
+}
+
+@media only screen and (min-width: 800px){
+    #hour{
+        font-size: 10em;
+    }
+}
